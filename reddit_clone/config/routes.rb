@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :links
+  resources :links
   get 'posts/index'
 
   get 'posts/create'
