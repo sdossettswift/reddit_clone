@@ -1,22 +1,4 @@
 Rails.application.routes.draw do
-  resources :links
-  resources :links
-  get 'posts/index'
-
-  get 'posts/create'
-
-  get 'posts/update'
-
-  get 'posts/view'
-
-  get 'posts/delete'
-
-  get 'posts/comment'
-
-  get 'posts/vote_up'
-
-  get 'posts/vote_down'
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
