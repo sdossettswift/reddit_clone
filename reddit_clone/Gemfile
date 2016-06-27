@@ -42,4 +42,5 @@ gem 'bootstrap-sass'
 gem 'acts_as_votable'
 gem 'simple_form', '~> 3.1'
 gem 'rails_12factor', group: :production
+gem 'puma'
 ruby "2.3.1"
