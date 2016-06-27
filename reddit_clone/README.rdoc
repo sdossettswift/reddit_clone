@@ -1,28 +1,75 @@
-== README
+Build Reddit (bookmarks and voting in Rails using Forms and relationships)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Learning Objectives
 
-Things you may want to cover:
+After completing this assignment, you should…
 
-* Ruby version
+Be able to utilize Forms in Rails
+Be able to add custom routes to your resources
+Performance Objectives
 
-* System dependencies
+After completing this assignment, you be able to effectively use
 
-* Configuration
+Modeling Data
+Publishing on Heroku
+Details
 
-* Database creation
+Deliverables
+A rails app repo with:
+Rails 4.2.6
+Functioning db/seed.rb
+A link to a live Heroku instance
 
-* Database initialization
+Requirements
 
-* How to run the test suite
+Reddit is "User-generated news links. Votes promote stories to the front page."
+Each Link should have a "number of positive votes" column
+Posts have many comments, which are displayed on the post's show page
+Normal Mode
 
-* Services (job queues, cache servers, search engines, etc.)
+Normal mode is a simple, naive, implementation of Reddit
 
-* Deployment instructions
+The homepage should order by the most number of votes
 
-* ...
+Clicking on thumbs-up should increment positive vote and redirect you to the home-page
+
+Clicking on the title should redirect you to the post detail page
+
+When on the post detail page, you should display the comments beneath the
+I can post a comment and type in my username
+
+reddit
+
+Difficult Mode
+Clicking "DOWN" should create a negative vote
+Add a User who has_many links
+When submitting a link, allow user to select themselves in a drop down
+
+Epic Mode
+
+Make the user sign in using has_secure_password or similar
+
+Add Controller testing and Acceptance testing to verify a user clicking a link creates the votes you expect
+
+Notes
+
+To launch on heroku, you'll need the Heroku Toolbelt and a Heroku Account
+
+Additional Resources
+
+Read Active Record Associations
+Read Rails Routing from the Outside In
+Read Action Controller Overview
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+///////NOTES///////////
+PART 1. LINK SUBMISSION
+PART 2. CREATE USERS
+PART 3. ASSOCIATE USER WITH LINKS
+PART 4. ADD BOOTSTRAP
+PART 5. VOTING
+PART 6. ADD COMMENTS
+PART 7. ASSOCIATE LINKS & COMMENTS
+PART 8. ADD USERNAME
+PART 9. DEPLOY TO HEROKU
