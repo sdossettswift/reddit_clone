@@ -17,13 +17,6 @@
  @import 'bootstrap';
  @import 'https://fonts.googleapis.com/css?family=Niconne|Open+Sans+Condensed:300';
 
-#logo{
-  font-size: 60px;
-  font-family: 'Niconne', cursive;
-  padding: 5px;
-  color: #9b59b6;
-
-}
 h1, h2, h3, h4{
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -36,8 +29,15 @@ body {
   background-color: #fff;
 }
 
-p, ol, ul, td {
+p, ol, ul, td, tr{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
   line-height: 18px;
+}
+#logo{
+  font-size: 60px;
+  font-family: 'Niconne', cursive;
+  padding: 5px;
+  color: #e74c3c;
+
 }
